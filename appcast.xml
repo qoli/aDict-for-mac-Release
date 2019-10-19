@@ -11,14 +11,13 @@
             </sparkle:releaseNotesLink>
             <pubDate>Sun, 20 Oct 2019 01:11:31 +0800</pubDate>
             <enclosure
-                url="https://xxx.com/app.zip"
+                url="https://github.com/qoli/aDict-for-mac-Release/raw/master/Release/aDictMac.zip"
                 sparkle:shortVersionString="1.0.1"
                 sparkle:version="2019-10-20 1.0 Build 1"
                 type="application/octet-stream"
-                sparkle:edSignature="TFgpXFi0mOL7mQLw3bNpgSVy3ztHtrNECS70dPKBMdYfwuMaP1qPif80CyNqrRBTboqhwEFiMqJ9hhbh91FuDQ=="
-                length="9109507"
+                sparkle:edSignature="RgSuUBUQ6/W3ZW0f5sklNSJZTZsWH0dovbOOhbgxsGBB1VZQaaQCBpibLkoCjCw9dbFe4SBP1euOLTwtXifLDw==" length="9109534"
             />
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
         </item>
     </channel>
 </rss>
