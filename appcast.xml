@@ -5,7 +5,7 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.0</title>
+            <title>Version 1.0.1</title>
             <sparkle:releaseNotesLink>
 			https://www.notion.so/aDict-for-macos-56722ec9f1ef498e9f35ae61d3881bc4
             </sparkle:releaseNotesLink>
@@ -13,9 +13,9 @@
             <enclosure
                 url="https://github.com/qoli/aDict-for-mac-Release/raw/master/Release/aDictMac.zip"
                 sparkle:shortVersionString="1.0.1"
-                sparkle:version="2019-10-20 1.0 Build 1"
+                sparkle:version="1.0.1 Build 2"
                 type="application/octet-stream"
-                sparkle:edSignature="sqYxahhFpdOiDbrcD5zt6TmZq9gV6XIljK45oPgdDnL0KzTERVYiDlPrxkISp3b11dvvrQY+Myytc+UGdt9MBg==" length="9096326"
+                sparkle:edSignature="HbGviCGalakViNJ3mS7o57tGXUMKMMlNj7TVGFY+CcNvl0HtPCh/tqrOyYQi5ZMXx1xGCzKbuHbXLoM6xjvlAQ==" length="9139866"
             />
             <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
         </item>
