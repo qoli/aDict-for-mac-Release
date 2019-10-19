@@ -1,0 +1,253 @@
+body {
+    margin: 1em;
+    padding: 0;
+    font-size: 13pt;
+    font-smoothing: antialiased;
+    /*    background-color: #fff;*/
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #262626;
+    padding-top: 90px;
+}
+/**/
+
+a {
+    margin: 0 4px;
+    color: #0085E1 !important;
+    text-decoration: none;
+}
+.label:before {
+    content: '\A';
+}
+.label {
+    margin-right: 5px;
+}
+/**/
+
+.abc {}
+/*
+* 單詞本體
+*/
+
+.header {
+    font-family: TimesNewRomanPS-BoldMT;
+    font-size: 1.5em;
+    color: #262626;
+    display: block;
+    margin-top: 0em;
+    /*text-transform: capitalize;*/
+}
+.header:after {
+    content: '\A';
+    display: block;
+}
+/*
+*
+*/
+
+.abbre, .idom, .symbol {
+    font-size: 0.8em;
+    font-family: PingFangTC-Light;
+    display: block;
+    margin-bottom: 0.5em;
+}
+/*
+* 音標等輔助信息
+*/
+
+.ncecd_con {
+    display: block;
+    padding-bottom: 50px;
+}
+.ncecd_con pron {
+    font-family: SFProText-Regular;
+    font-size: 0.8em;
+    color: #0085E1;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: -2px;
+}
+.ncecd_con pron:after {
+    content: '\A';
+    display: block;
+}
+.ncecd_con .tense {
+    font-family: PingFangTC-Light;
+    font-size: 0.6em;
+    color: #999999;
+}
+.ncecd_con .class {
+    font-family: PingFangTC-Light;
+    font-size: 0.8em;
+    color: #262626;
+    display: block;
+    margin-bottom: 5px;
+}
+/*
+例句含義之類
+*/
+
+.sense {
+    margin-top: 20px;
+    display: block;
+    vertical-align: middle;
+}
+.sense .dodo {
+    margin-right: 5px;
+}
+.sense .label {
+    font-size: 0.7em;
+    color: #BFBFBF;
+}
+.sense .collocation {
+    font-size: 0.7em;
+    color: #999999;
+}
+.sense .num {
+    background: #C7D2DC;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 0.6em;
+    color: #fff;
+    padding: 3px 4px;
+    line-height: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
+.sense .brief_ex {
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #000000;
+    display: inline-block;
+    line-height: 12px;
+    margin-right: 5px;
+}
+.sense .zh {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: PingFangTC-Regular;
+    font-size: 0.8em;
+    color: #999999;
+    display: block;
+}
+.ex:before {
+    content: 'EX.';
+    background: #FAF8ED;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0px 4px;
+    margin-right: 5px;
+    line-height: 14px;
+    font-family: SFProDisplay-Heavy;
+    font-size: 0.6em;
+    height: 14px;
+    color: #BFBFBF;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+.ex {
+    font-family: SFProText-Italic;
+    font-style: italic;
+    font-size: 0.8em;
+    line-height: 14px;
+    color: #000000;
+    display: block;
+    vertical-align: baseline;
+}
+.ex .zh:before {
+    content: '\A';
+    display: block;
+}
+.ex .zh {
+    padding-left: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: PingFangTC-Regular;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #999999;
+    display: block;
+}
+/*
+短語
+*/
+
+.maybe_phrase:before {
+    content: 'PHRASE';
+    margin-right: 0.3em;
+    display: block;
+    border-bottom: 1px #E6E2DC solid;
+    color: #BFBFBF;
+    font-style: 0.5em;
+    margin-bottom: 0.5em;
+}
+.maybe_phrase {
+    font-family: SFProText-Regular;
+    font-style: normal;
+    font-size: 0.5em;
+    color: #999999;
+    display: block;
+    margin: 0.5em 0 2.5em 0;
+}
+.maybe_phrase .mphr_en {
+    font-family: SFProText-Regular;
+    margin-right: 0.3em;
+    color: #000000;
+    font-size: 2em;
+}
+.maybe_phrase .zh {
+    font-size: 1.4em;
+}
+.also:before {
+    content: '▸ ';
+}
+.also {
+    font-size: 0.8em;
+    padding: 0 5px;
+    color: #000;
+    font-style: normal;
+    font-weight: 200;
+}
+.phr:before {
+    content: 'PHRASAL VERBS';
+    margin-right: 0.3em;
+    display: block;
+    font-family: SFProText-Regular;
+    border-bottom: 1px #E6E2DC solid;
+    color: #BFBFBF;
+    font-style: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.5em;
+}
+.phr {
+    margin: 20px 0;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        /*background-color: #000;*/
+        color: #fff;
+    }
+    .ncecd_con pron, a {
+        color: #7EC3F4 !important;
+    }
+    .header, .ncecd_con .class, .also, .sense .brief_ex, .ex, .sense, .phr, .mphr_en {
+        color: #fff !important;
+    }
+    .ncecd_con .tense, .sense .zh, .ex .zh {
+        color: #999999 !important;
+    }
+    .sense .num {
+        background: #2A3C4E !important;
+        color: #fff !important;
+    }
+    .ex:before {
+        background: #191D20 !important;
+        color: #7F7F7F !important;
+    }
+    .maybe_phrase:before, .phr:before {
+        border-bottom: 1px #313131 solid;
+        color: #999;
+    }
+}

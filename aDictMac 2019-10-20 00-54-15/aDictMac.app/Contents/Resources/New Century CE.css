@@ -1,0 +1,139 @@
+body {
+    margin: 1em;
+    padding: 0;
+    font-size: 13pt;
+    font-smoothing: antialiased;
+        /*background-color: #fff;*/
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #262626;
+    padding-top: 90px;
+}
+/**/
+
+.btn-sound {
+    display: none;
+}
+/*基本初始化*/
+
+a {
+    color: #0085E1;
+    text-decoration: none;
+    font-size: 0.9em !important;
+}
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+em {
+    font-style: normal;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+h5, h4, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: PingFangTC-Light;
+    font-weight: 200;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+h5 {
+    font-family: PingFangTC-Regular;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px #E6E2DC solid;
+    color: #999;
+    margin-bottom: 10px;
+    font-size: 0.7em;
+}
+i {
+    font-family: PingFangTC-Regular;
+    font-style: normal;
+}
+/**/
+
+.to-other-info {
+    margin-bottom: 10em;
+}
+.entry_head {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+}
+.number {
+    background: #C7D2DC;
+    border-radius: 2px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    padding: 3px 4px;
+    line-height: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
+.info-cite {
+    font-family: PingFangTC-Light;
+    font-size: 1em;
+    margin-top: 0.4em;
+    margin-bottom: 1.4em;
+    color: #999;
+    letter-spacing: 0.6px;
+}
+.info-cite em {
+    color: #000;
+    letter-spacing: 0;
+    font-family: PingFangTC-Regular;
+}
+.info-cite .italic {
+    color: #333;
+    letter-spacing: 0.2px;
+    font-family: SFProText-Regular;
+    font-style: italic;
+    font-size: 0.9em;
+    position: relative;
+    top: -4px;
+}
+.info-list li {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    font-family: PingFangTC-Light;
+}
+.info-list .gray {
+    color: #666;
+}
+.info-list .bold {
+    letter-spacing: 0.6px;
+    font-weight: 800;
+    color: #333;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        /*background-color: #000 !important;*/
+        color: #fff;
+    }
+    .info-cite em, .info-list .bold {
+        color: #fff;
+    }
+    .info-cite {
+        color: #999999;
+    }
+    .info-cite .italic {
+        color: #ececec;
+    }
+    h5 {
+        border-bottom: 1px #313131 solid;
+        color: #999;
+    }
+    .number {
+        background: #2A3C4E !important;
+        color: #fff !important;
+    }
+}

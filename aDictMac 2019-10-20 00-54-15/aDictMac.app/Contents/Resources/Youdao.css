@@ -1,0 +1,248 @@
+body {
+    margin: 1em;
+    padding: 0;
+    font-size: 13pt;
+    font-smoothing: antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #262626;
+    padding-top: 1em;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid #E6E2DC;
+}
+p {
+    margin-bottom: 0.2em;
+    font-family: PingFangTC-Light;
+}
+b {
+    color: #BFBFBF;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.color999 {
+    color: #999;
+}
+h1 {
+    font-family: PingFangTC-Light;
+    font-size: 0.5em;
+    color: #000;
+    margin-bottom: 5px;
+    padding-top: 2em;
+    display: block;
+}
+h2 {
+    font-family: TimesNewRomanPS-BoldMT;
+    font-size: 1.5em;
+    color: #262626;
+    display: block;
+    margin-top: 0em;
+}
+h5 {
+    font-family: PingFangTC-Light;
+    font-size: 9px;
+    color: #BFBFBF;
+}
+.times {
+    font-family: TimesNewRomanPS-BoldMT;
+}
+.mt2 {
+    margin-top: 1em;
+}
+.mb2 {
+    margin-bottom: 1em;
+}
+.mr5 {
+    margin-right: 5px;
+}
+.disinline {
+    display: inline;
+}
+.divider {
+    font-family: PingFangTC-Light;
+    display: block;
+    border-bottom: 1px #E6E2DC solid;
+    color: #BFBFBF;
+    font-size: 9px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+ol {
+    padding: 0 2em;
+    list-style-type: lower-alpha;
+    margin-top: 1em;
+}
+li {
+    font-family: PingFangTC-Light;
+    margin-bottom: 0.5em;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: circle;
+    padding-left: 2em;
+    margin-top: 1em;
+}
+.textlight {
+    color: #999;
+}
+.highlight {
+    color: #000;
+    font-weight: 800;
+}
+/**/
+
+/* number */
+
+.pos {
+    font-family: PingFangTC-Light;
+    background: #E6E2DC;
+    color: #000;
+    border-radius: 2px;
+    font-size: 0.8em;
+    padding: 3px 4px;
+    line-height: 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+/* text */
+
+.text {
+    font-family: SFProText-Regular;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+.text .n {
+    color: #999;
+}
+/* phonetic */
+
+.notations {
+    font-family: PingFangTC-Light;
+}
+.country {
+    font-size: 0.6em;
+    color: #BFBFBF;
+    margin-right: 5px;
+    font-weight: 200;
+}
+.phonetic {
+    font-family: SFProText-Regular;
+    font-size: 0.8em;
+    color: #0085E1;
+    margin-right: 10px;
+}
+/*example*/
+
+.example {
+    font-family: PingFangTC-Light;
+    font-style: 0.8em;
+    color: #999999;
+    font-weight: 200;
+    margin-bottom: 1em;
+}
+.example .original:before {
+    content: 'EX.';
+    background: #FAF8ED;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0px 4px;
+    margin-right: 5px;
+    line-height: 14px;
+    font-family: SFProDisplay-Heavy;
+    font-size: 0.6em;
+    height: 14px;
+    color: #BFBFBF;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+.example .original {
+    font-family: SFProText-Light;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    color: #000000;
+    vertical-align: baseline;
+}
+.example b {
+    color: #000;
+}
+.example .translate {
+    padding-left: 1.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: PingFangTC-Light;
+    font-style: normal;
+    font-size: 0.8em;
+    color: #999999;
+    display: block;
+    font-weight: 200;
+    line-height: 1.6em;
+}
+/* ee class="WordNet" */
+
+.italic {
+    font-family: SFProText-Italic;
+    font-style: italic;
+}
+.wikipedia_digest {
+    font-family: SFProText-Light;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    text-indent: 1.6em;
+}
+
+.onlineTranslation .value {
+    margin-right: 5px;
+    color: #999999;
+    font-size: 0.8em;
+}
+
+/*ce_new*/
+
+.ce_new .exam {
+    padding-left: 1.8em;
+}
+
+/* collins */
+
+.collins .star {
+    font-size: 0.6em;
+    font-weight: 800;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        /*background-color: #000;*/
+        color: #fff;
+    }
+    h1, h2, h3 {
+        color: #fff;
+    }
+    h1 {
+        color: #666;
+    }
+    .divider, hr {
+        border-bottom: 1px #444 solid;
+        color: #999;
+    }
+    .original, b, .highlight {
+        color: #fff !important;
+    }
+    .example .original:before {
+        background: #191D20 !important;
+        color: #7F7F7F !important;
+    }
+    .pos {
+        background: #2A3C4E !important;
+        color: #fff !important;
+    }
+    .phonetic {
+        color: #7EC3F4;
+    }
+}

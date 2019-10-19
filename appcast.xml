@@ -9,15 +9,14 @@
             <sparkle:releaseNotesLink>
 			https://www.notion.so/aDict-app-a647f1ed9f604892895b8e71a65f1d70
             </sparkle:releaseNotesLink>
-            <pubDate>Wed, 10 Apr 2019 19:58:11 +0000</pubDate>
+            <pubDate>Sun, 20 Oct 2019 01:11:31 +0800</pubDate>
             <enclosure
                 url="https://xxx.com/app.zip"
-                sparkle:shortVersionString="1.0"
-                sparkle:version="1.0 Build 2"
-                length="6605799"
+                sparkle:shortVersionString="1.0.1"
+                sparkle:version="2019-10-20 1.0 Build 1"
                 type="application/octet-stream"
-                sparkle:edSignature="MEYCIQCQaUqxcrhhEABlWxk+1At5QSwty+Li8d6Sr3q6jJF1JgIhAOWGpIkYLwXC
-                RFfaA8uz34Dy7CXCczpmSyCOQ5+rfOFL"
+                sparkle:edSignature="TFgpXFi0mOL7mQLw3bNpgSVy3ztHtrNECS70dPKBMdYfwuMaP1qPif80CyNqrRBTboqhwEFiMqJ9hhbh91FuDQ=="
+                length="9109507"
             />
             <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
         </item>
