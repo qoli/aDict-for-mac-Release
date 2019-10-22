@@ -5,7 +5,7 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.1</title>
+            <title>App Update</title>
             <sparkle:releaseNotesLink>
 			https://raw.githubusercontent.com/qoli/aDict-for-mac-Release/master/release_notes.html
             </sparkle:releaseNotesLink>
