@@ -13,7 +13,7 @@
             <enclosure
                 url="https://github.com/qoli/aDict-for-mac-Release/raw/master/Release/aDictMac.zip"
                 sparkle:shortVersionString="1.0.4"
-                sparkle:version="1.0.4 Build 5"
+                sparkle:version="5"
                 type="application/octet-stream"
                 sparkle:edSignature="umiA/7QvNyceQwcChUT8X2ZclzQ3pZRomv619HTrgDEa7bcdkVmT63NZQE+DHIaryXleAiv9SxmlJpazk0ZBBA==" length="9178207"
             />
