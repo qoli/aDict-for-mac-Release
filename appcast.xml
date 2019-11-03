@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>aDict for mac</title>
+        <title>aDict for macOS</title>
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
@@ -9,15 +9,15 @@
             <sparkle:releaseNotesLink>
 			https://raw.githubusercontent.com/qoli/aDict-for-mac-Release/master/release_notes.html
             </sparkle:releaseNotesLink>
-            <pubDate>Sat, 02 Nov 2019 04:53:59 +0800</pubDate>
+            <pubDate>Sun, 03 Nov 2019 22:19:15 +0800</pubDate>
             <enclosure
                 url="https://github.com/qoli/aDict-for-mac-Release/raw/master/Release/aDictMac.zip"
-                sparkle:shortVersionString="1.0.6"
-                sparkle:version="8"
+                sparkle:shortVersionString="1.1"
+                sparkle:version="10"
                 type="application/octet-stream"
-                sparkle:edSignature="DjKoM1q1c47yMSp1ra8WbuOWvNdZ5oR4D1GmSEEivpR1nDoe5xV/P4hHNoPRxYFZ2LU7j1L7eH2xxyNUKRhOBQ==" length="9219543"
+                sparkle:edSignature="2Eb74fB7BGoZhO2iZPaXrr2+HGR7yKvntaMR7UdSU2r99DqQ3C92TYs0GkwBrqc+fyUmpt/sV+0olHC1AyGyCw==" length="9200827"
             />
-            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
         </item>
     </channel>
 </rss>
