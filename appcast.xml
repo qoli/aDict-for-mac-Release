@@ -12,10 +12,10 @@
             <pubDate>Sun, 03 Nov 2019 22:19:15 +0800</pubDate>
             <enclosure
                 url="https://github.com/qoli/aDict-for-mac-Release/raw/master/Release/aDictMac.zip"
-                sparkle:shortVersionString="1.1"
-                sparkle:version="10"
+                sparkle:shortVersionString="1.2"
+                sparkle:version="11"
                 type="application/octet-stream"
-                sparkle:edSignature="2Eb74fB7BGoZhO2iZPaXrr2+HGR7yKvntaMR7UdSU2r99DqQ3C92TYs0GkwBrqc+fyUmpt/sV+0olHC1AyGyCw==" length="9200827"
+                sparkle:edSignature="Q257oRGjWyVyfaztiDSl0RhKP8GnHjl0tCoo0f12qzZ83C9+gjzY3OaAcnqAJdP9Sjb6sgIT/+fmNE2w0HwhBA==" length="9200693"
             />
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
         </item>
