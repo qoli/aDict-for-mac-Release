@@ -9,13 +9,13 @@
             <sparkle:releaseNotesLink>
 			https://raw.githubusercontent.com/qoli/aDict-for-mac-Release/master/release_notes.html
             </sparkle:releaseNotesLink>
-            <pubDate>Sun, 03 Nov 2019 22:19:15 +0800</pubDate>
+            <pubDate>Tue, 03 Dec 2019 16:49:08 +0800</pubDate>
             <enclosure
                 url="https://github.com/qoli/aDict-for-mac-Release/raw/master/Release/aDictMac.zip"
                 sparkle:shortVersionString="1.2"
                 sparkle:version="11"
                 type="application/octet-stream"
-                sparkle:edSignature="Q257oRGjWyVyfaztiDSl0RhKP8GnHjl0tCoo0f12qzZ83C9+gjzY3OaAcnqAJdP9Sjb6sgIT/+fmNE2w0HwhBA==" length="9200693"
+                sparkle:edSignature="07Uu1d9Lho7UPfKz7GKmJMPEk02nsXVvkWm5oFxHt2O27aOOOUdPLyHYHYz+fHkY7pHeBt0KxBXIgPV3tKmmAA==" length="9214442"
             />
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
         </item>
